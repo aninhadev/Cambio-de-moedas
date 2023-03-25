@@ -1,0 +1,95 @@
+body {
+  margin: auto;
+  background-color: rgb(2, 2, 107);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.card-cambio {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: monospace;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+}
+
+.card-cambio:hover{
+  box-shadow: 4px 6px   rgba(0, 0, 0, 0.589);
+  transition: 0.4s ease-in-out;
+}
+
+.card-valor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-moedas {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.btn-enviar {
+  width: 50%;
+  height: 34px;
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgba(11, 172, 38, 0.76);
+  padding: 4px;
+}
+
+.btn-enviar:hover {
+  background-color: white;
+  color: rgb(8, 170, 30);
+  transition: 0.4s ease-in-out;
+}
+
+.btn-limpar {
+  width:50%;
+  height: 34px;
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgba(255, 29, 29, 0.705);
+  padding: 4px;
+}
+
+.btn-limpar:hover{
+  background-color: white;
+  color: rgb(170, 8, 8);
+  transition: 0.4s ease-in-out;
+}
+
+
+#valorMoeda {
+  padding: 5px;
+}
+
+.res{
+  font-size: large;
+  padding-top: 8px;
+  text-align: center;
+  color: black;
+  width: 140px;
+  background-color: beige;
+  height: 28px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  width: 290px;
+  gap: 5px;
+  align-self: center;
+}

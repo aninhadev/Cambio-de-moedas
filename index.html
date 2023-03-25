@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Câmbio de Moedas</title>
+</head>
+
+<body>
+  <main class="">
+    <h1>Cambio de Moedas</h1>
+    <div class="card-cambio">
+      <h2>Digite o valor e a moeda </h2>
+      <div class="card-valor">
+        <input type="number" name="valorMoeda" id="valorMoeda" placeholder="Valor" />
+        <select id="moedas" name="moedas">
+          <option value="Dolar1">Dolar</option>
+          <option value="Real1">Real</option>
+        </select>
+      </div>
+      <div class="card-moedas">
+        <div id="res">0</div>
+        <select id="moedaDesejada" >
+          <option value="Dolar2">Dolar</option>
+          <option value="Real2" selected >Real</option>
+        </select>
+      </div>
+      <div class="btns">
+        <button type="submit" id="enviar" class="btn-enviar" >Cambiar</button>
+        <button type="submit" id="limpar" class="btn-limpar" onclick="limpar()">Limpar</button>
+      </div>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
